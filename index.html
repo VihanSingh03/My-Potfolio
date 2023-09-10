@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300;1,400&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Vihan's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="https://github.com/VihanSingh03">Projects</a></li>
+            <li><a href="#contactme">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi,My name
+          <span class="purple"> Vihan</span>
+          <div>and I am a passionate</div>
+
+          <span id="element"></span>
+          <div class="button">
+            <button class="btn">Downlode resume</button>
+            <button class="btn">GitHub</button>
+          </div>
+        </div>
+
+        <div class="rightsection">
+          <img
+            data-aos="slide-right"
+            data-aos-duration="1000"
+            src="bg.png"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <hr />
+      <section class="secoundsection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div data-aos="fade-in" data-aos-duration="4000" class="box">
+          <div class="verticle">
+            <img class="img-top" src="crazywebdev.png" alt="" />
+            <div class="verticle-title">Frontend developer</div>
+            <div class="verticle-desc">
+              As a Frontend Developer at CrazyWebDev Technology, I harness the
+              power of HTML and CSS to create stunning and user-friendly web
+              interfaces, delivering exceptional digital experiences.
+            </div>
+          </div>
+          <div class="verticle">
+            <img class="img-top" src="multi.png" alt="" />
+            <div class="verticle-title">Campus ambasidor</div>
+            <div class="verticle-desc">
+              As a dedicated Campus Ambassador at Multigrade in Bundelkhand
+              University, I'm actively bridging the gap between our organization
+              and the university, while promoting valuable opportunities and
+              initiatives.
+            </div>
+          </div>
+          <div class="verticle">
+            <img class="img-top" src="bharatintern.png" alt="" />
+            <div class="verticle-title">FullStack developer</div>
+            <div class="verticle-desc">
+              I am a full-stack developer at BharatIntern Technology, where I
+              create innovative web applications and software solutions,
+              combining front-end and back-end expertise to drive digital
+              success
+            </div>
+          </div>
+          <div class="verticle">
+            <img class="img-top" src="gdsc.png" alt="" />
+            <div class="verticle-title">GDSC</div>
+            <div class="verticle-desc">
+              I am an active member of GDSC (Google Developer Student Clubs)
+              specializing in web development, where I collaborate and innovate
+              on exciting web projects, fostering growth and learning.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div id="about">
+          <div class="container">
+            <div class="row">
+              <div class="about-col-1">
+                <img src="vihann.JPG" alt="my_img" />
+              </div>
+              <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Exercitationem, itaque esse? Voluptates inventore nam eveniet
+                  illum mollitia similique sit, perspiciatis modi cupiditate
+                  repellat quaerat dicta ipsam aliquam optio expedita soluta
+                  dolorum enim dolor repellendus voluptatem magni temporibus
+                  magnam. Repellendus, modi!
+                </p>
+                <div class="tab-title">
+                  <p class="tab-links active-links" onclick="opentab('skills')">
+                    Skills
+                  </p>
+                  <p class="tab-links" onclick="opentab('experience')">
+                    Experience
+                  </p>
+                  <p class="tab-links" onclick="opentab('education')">
+                    Education
+                  </p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                    <li>
+                      <span>Frontend</span><br />Frontend Developement using
+                      HTML, CSS and Javascript
+                    </li>
+                    <li>
+                      <span>back-end</span><br />back-end Developement using
+                      MERN
+                    </li>
+                    <li>
+                      <span>compatative coading</span><br />compatative coading
+                      using C C++
+                    </li>
+                    <li><span>DSA</span><br />DSA using C++</li>
+                  </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                  <ul>
+                    <li>
+                      <span>Frontend developer(2023-current)</span
+                      ><br />Frontend Developer at crazywebdev Technology
+                    </li>
+                    <li>
+                      <span>back-end(2023)</span><br />back-end Developer at
+                      BharatIntern
+                    </li>
+                    <li>
+                      <span>back-end(2023)</span><br />back-end devloper at
+                      technohacks
+                    </li>
+                    <li>
+                      <span>Campus Ambassador(2023-current)</span><br />Campus
+                      Ambassador at multigrade
+                    </li>
+                    <li>
+                      <span>GDSC(2023-current)</span><br />member in
+                      webdevlopment domain at GDSC
+                    </li>
+                  </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                  <ul>
+                    <li>
+                      <span>Btech(2021-25)</span><br />Bachlors of Technology
+                      from (ECE) at Bundelkhand University
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <!-------------services------------->
+        <div id="services" class="ser">
+          <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+              <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non
+                  architecto provident molestias ducimus nobis dolor voluptatum,
+                  sequi numquam. Dolorum, suscipit!
+                </p>
+                <a href="#">Learn More</a>
+              </div>
+              <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non
+                  architecto provident molestias ducimus nobis dolor voluptatum,
+                  sequi numquam. Dolorum, suscipit!
+                </p>
+                <a href="#">Learn More</a>
+              </div>
+              <div>
+                <i class="fa-brands fa-android"></i>
+                <h2>App Design</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non
+                  architecto provident molestias ducimus nobis dolor voluptatum,
+                  sequi numquam. Dolorum, suscipit!
+                </p>
+                <a href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div id="portfolio">
+          <div class="container">
+              <h1 class="sub-title">My Work</h1>
+              <div class="work-list">
+                  <div class="work">
+                      <img src="./food.png">
+                      <div class="layer">
+                          <h3>Social Media App</h3>
+                          <p>
+                              The app connects you to the talented people around the world.
+                          </p>
+                          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                      </div>
+                  </div>
+                  <div class="work">
+                      <img src="./amz.webp">
+                      <div class="layer">
+                          <h3>Music App</h3>
+                          <p>
+                              The app connects you to the talented people around the world.
+                          </p>
+                          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                      </div>
+                  </div>
+                  <div class="work">
+                      <img src="./todo.jpg">
+                      <div class="layer">
+                          <h3>Online Shopping App</h3>
+                          <p>
+                              The app connects you to the talented people around the world.
+                          </p>
+                          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <a href="#" class="btn">See More</a>
+      </div>
+      </section>
+
+      <section>
+        <div id="contact">
+          <div class="container">
+              <div class="row">
+                  <div class="contact-left">
+                      <h1 class="sub-title">Contact Me</h1>
+                      <p> <i class="fas-fa-paper-plane">conatct@singhhvihann@gmail.com</i></p>
+                      <p> <i class="fas fa-phone-square-alt">+91 8601251928</i></p>
+                      <div class="social-icons">
+                          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                          <a href="https://twitter.com/singhhvihann?s=11&t=Woox218bFtSWAIpySShSWA"><i class="fa-brands fa-twitter"></i></a>
+                          <a href="https://www.linkedin.com/in/vihan-singh-553601250"><i class="fa-brands fa-linkedin"></i></a>
+                      </div>
+                      <a href="#" download class="btn btn2">Download CV</a>
+                  </div>
+                  <div class="contact-right">
+                      <form name="submit-to-google-sheet">
+                          <input type="text" name="Name" placeholder="Your Name" required>
+                          <input type="email" name="Email" id="Your Email" placeholder="Your Email" required>
+                          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                          <button type="submit" class="btn btn2">Submit</button>
+                      </form>
+                      <span id="msg"></span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+      </section>
+    </main>
+    <footer>
+      
+      <div class="footer-rights">
+        WWW.Vihan's Portfolio.com | All Rights Reserved &#169;
+      </div>
+    </footer>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-links");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+<script>
+  var sidemenu = document.getElementById("sidemenu");
+  function openmenu(){
+      sidemenu.style.right = "0";
+  }
+  function closemenu(){
+      sidemenu.style.right = "-200px";
+  }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxMbAk-bktVSe1uLaTgrOw4nZp-9Soa8uPKRwLqFfSpUIV2TxJpby-x-gg1QGf9Cx1wzQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+              msg.innerHTML = ""
+          },5000)
+          form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web developer",
+          "MERN Developer",
+          "DSA problebsolver",
+          "Fullstack developer ",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
